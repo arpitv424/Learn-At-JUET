@@ -1,0 +1,21 @@
+{
+  "name": "learn-at-juet",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^33.0.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "@expo/vector-icons": "10.0.2",
+    "firebase": "6.2.3",
+    "native-base": "2.12.1",
+    "prop-types": "*",
+    "react-native-gifted-chat": "0.3.0",
+    "react-native-keyboard-spacer": "0.4.1",
+    "react-native-video": "*",
+    "react-navigation": "3.11.0"
+  }
+}
