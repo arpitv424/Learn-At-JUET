@@ -136,7 +136,7 @@ render () {
    
   
         <TextInput  
-    placeholder = '   Email' 
+    placeholder = '   Email Daalo' 
     autoCorrect={false}    
     style={{marginTop: ht/4.5, height:ht/14, width: wt/1.2, backgroundColor:'#eee', borderRadius: 60}}
     onChangeText={(email) => this.setState({email: email})} 
