@@ -136,15 +136,15 @@ render () {
    
   
         <TextInput  
-    placeholder = '   Email Daalo' 
+    placeholder = '   Email Address' 
     autoCorrect={false}    
-    style={{marginTop: ht/4.5, height:ht/14, width: wt/1.2, backgroundColor:'#eee', borderRadius: 60}}
+    style={{marginTop: ht/4.5, height:ht/14, width: wt/1.2, backgroundColor:'#eee', borderRadius: 55}}
     onChangeText={(email) => this.setState({email: email})} 
     />
     <TextInput  
     placeholder = '   Password'
      autoCorrect={false}    
-    style={{margin:20, height:ht/14, width: wt/1.2, backgroundColor:'#eee', borderRadius: 60}}
+    style={{margin:20, height:ht/14, width: wt/1.2, backgroundColor:'#eee', borderRadius: 55}}
     secureTextEntry= {true}
     onChangeText={(password) => this.setState({password: password})}
     />
@@ -152,7 +152,7 @@ render () {
     <TextInput  
     placeholder = '   Enrollment Number'
      autoCorrect={false}    
-    style={{margin:20, height:ht/14, width: wt/1.2, backgroundColor:'#eee', borderRadius: 60}}
+    style={{margin:20, height:ht/14, width: wt/1.2, backgroundColor:'#eee', borderRadius: 55}}
     onEndEditing={ (e: any) => 
     {
         this.checkEnrollment(e.nativeEvent.text)
