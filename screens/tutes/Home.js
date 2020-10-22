@@ -26,7 +26,7 @@ export default class Home extends React.Component{
                 <Thumbnail squares source={{ uri: 'https://img.icons8.com/color/1600/1-circle-c.png' }} />
               </Left>
               <Body>
-                <Text style= {{fontSize:17}}>SEM 1</Text>
+                <Text style= {{fontSize:17}}>SEM 2</Text>
                 <Text note numberOfLines={1}>Hey! Welcome To a new Journey.</Text>
               </Body>
               <Right>
@@ -41,7 +41,7 @@ export default class Home extends React.Component{
                 <Thumbnail square source={{ uri: 'https://edkentmedia.com/wp-content/uploads/2017/09/3_circle_c1600.png' }} />
               </Left>
               <Body>
-                <Text style= {{fontSize:17}}>SEM 3</Text>
+                <Text style= {{fontSize:17}}>SEM 4</Text>
                 <Text note numberOfLines={1}>Its Time to shape the FUTURE</Text>
               </Body>
               <Right>
@@ -56,7 +56,7 @@ export default class Home extends React.Component{
                 <Thumbnail square source={{ uri: 'https://maxcdn.icons8.com/Share/icon/Alphabet/5_circle_filled1600.png' }} />
               </Left>
               <Body>
-                <Text style= {{fontSize:17}}>SEM 5</Text>
+                <Text style= {{fontSize:17}}>SEM 6</Text>
                 <Text note numberOfLines={1}>Miles to go before I sleep.</Text>
               </Body>
               <Right>
@@ -71,7 +71,7 @@ export default class Home extends React.Component{
                 <Thumbnail square source={{ uri: 'https://img.icons8.com/color/1600/7-circle-c.png' }} />
               </Left>
               <Body>
-                <Text style= {{fontSize:17}}>SEM 7</Text>
+                <Text style= {{fontSize:17}}>SEM 8</Text>
                 <Text note numberOfLines={1}>Its time to make Memories.</Text>
               </Body>
               <Right>
